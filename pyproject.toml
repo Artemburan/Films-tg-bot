@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "films tg bot"
+version = "0.1.0"
+description = "Films bot"
+authors = ["Artemburan <artburia17@gmail.com>"]
+license = "MRT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.13.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
